@@ -1,0 +1,28 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controllers.MainController"
+      spacing="12" padding="20">
+
+    <HBox spacing="10">
+        <Label fx:id="labelChooseLanguage" text="Select Language:"/>
+        <ComboBox fx:id="comboLanguage" prefWidth="150"/>
+        <Button fx:id="btnApplyLanguage" text="OK"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Label fx:id="labelItems" text="Items:"/>
+        <TextField fx:id="tfItemCount" prefWidth="60"/>
+        <Button fx:id="btnCreateInputs" text="Create"/>
+    </HBox>
+
+    <VBox fx:id="itemsContainer" spacing="10"/>
+
+    <Button fx:id="btnCalculate" text="Calculate" disable="true"/>
+    <Label fx:id="labelTotal" text=""/>
+</VBox>

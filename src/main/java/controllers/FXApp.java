@@ -28,7 +28,7 @@ public class FXApp extends Application {
 
         Scene scene = new Scene(root, 300, 150);
         stage.setScene(scene);
-        stage.setTitle("Shopping Cart");
+        stage.setTitle("Tuukka Uusitalo / Shopping Cart");
         stage.show();
 
         startBtn.setOnAction(e -> {

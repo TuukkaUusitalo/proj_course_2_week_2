@@ -65,10 +65,10 @@ public class MainController {
             TextField qty = new TextField();
 
             HBox row = new HBox(10,
-                    new Label(msg.getString("enter_price") + " #" + (i + 1)),
-                    price,
-                    new Label(msg.getString("enter_quantity") + " #" + (i + 1)),
-                    qty
+                new Label(msg.getString("enter_price") + " #" + (i + 1)),
+                price,
+                new Label(msg.getString("enter_quantity") + " #" + (i + 1)),
+                qty
             );
 
             itemsContainer.getChildren().add(row);
